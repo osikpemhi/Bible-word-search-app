@@ -1,0 +1,95 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eddbc1;
+}
+
+.logo {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 7rem;
+    color: #000000;
+}
+
+.motto {
+    margin-top: 12px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: #6b7280;
+}
+
+.cta-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+input {
+  width: 90%;
+  max-width: 580px;
+  padding: 14px 24px;
+  border-radius: 9999px;
+  border: 1.5px solid #D1C4B0;
+  font-size: 1.7rem;
+  outline: none;
+  background: #FFFFFF;
+}
+
+input:focus {
+  border-color: #B38638;
+  box-shadow: 0 0 0 4px rgba(179, 134, 56, 0.15);
+}
+
+button {
+
+    margin-top: 2rem;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50px;
+    width: 10rem;
+    background-color: #B38638;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    margin-bottom: 8rem;
+   
+}
+
+button:hover {
+    background-color: #9A722E;
+    transform: translateY(-1px);
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    max-width: 1200px;
+}
