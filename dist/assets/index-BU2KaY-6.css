@@ -1,1 +1,35 @@
-html{font-size:62.5%}*{box-sizing:border-box;margin:0;padding:0}.container{background-color:#eddbc1;flex-direction:column;justify-content:center;align-items:center;width:100%;min-height:100vh;display:flex}.logo{flex-direction:column;justify-content:center;align-items:center;margin-bottom:5rem;display:flex}.heading{color:#000;font-family:Playfair Display,serif;font-size:7rem}.motto{text-transform:uppercase;letter-spacing:.18em;color:#6b7280;margin-top:12px;font-family:Plus Jakarta Sans,sans-serif;font-size:.875rem;font-weight:600}.cta-text{text-align:center;margin-bottom:2rem;font-family:Playfair Display,serif;font-size:2rem}input{background:#fff;border:1.5px solid #d1c4b0;border-radius:9999px;outline:none;width:90%;max-width:580px;padding:14px 24px;font-size:1.7rem}input:focus{border-color:#b38638;box-shadow:0 0 0 4px #b3863826}button{color:#fff;cursor:pointer;background-color:#b38638;border:none;border-radius:50px;width:10rem;margin-top:2rem;margin-bottom:8rem;padding:1rem;transition:background-color .2s,transform .1s}button:hover{background-color:#9a722e;transform:translateY(-1px)}.output{justify-content:center;align-items:center;max-width:1200px;font-size:1.7rem;display:flex}
+html{font-size:62.5%}
+*{box-sizing:border-box;margin:0;padding:0}
+.container{background-color:#eddbc1;flex-direction:column;justify-content:center;align-items:center;width:100%;min-height:100vh;display:flex;padding:2rem 1.5rem}
+.logo{flex-direction:column;justify-content:center;align-items:center;margin-bottom:5rem;display:flex}
+.heading{color:#000;font-family:Playfair Display,serif;font-size:3rem}
+.motto{text-transform:uppercase;letter-spacing:.18em;color:#6b7280;margin-top:12px;font-family:Plus Jakarta Sans,sans-serif;font-size:.875rem;font-weight:600}
+.cta-text{text-align:center;margin-bottom:2rem;font-family:Playfair Display,serif;font-size:2rem}
+input{background:#fff;border:1.5px solid #d1c4b0;border-radius:9999px;outline:none;width:90%;max-width:580px;padding:14px 24px;font-size:1.7rem}
+input:focus{border-color:#b38638;box-shadow:0 0 0 4px #b3863826}
+button{color:#fff;cursor:pointer;background-color:#b38638;border:none;border-radius:50px;width:10rem;margin-top:2rem;margin-bottom:8rem;padding:1rem 1.5rem;transition:background-color .2s,transform .1s}
+button:hover{background-color:#9a722e;transform:translateY(-1px)}
+.output{justify-content:center;align-items:center;max-width:1200px;font-size:1.7rem;display:flex}
+
+@media (max-width: 768px){
+  html{font-size:58%}
+  .container{padding:2rem 1rem}
+  .logo{margin-bottom:3.5rem}
+  .heading{font-size:2.5rem}
+  .motto{letter-spacing:.12em;font-size:.75rem}
+  .cta-text{font-size:1.7rem;margin-bottom:1.5rem}
+  input{width:92%;font-size:1.5rem;padding:12px 18px}
+  button{width:100%;max-width:220px;margin-bottom:5rem}
+  .output{font-size:1.5rem;padding:0 1rem}
+}
+
+@media (max-width: 480px){
+  html{font-size:52%}
+  .container{padding:1.5rem .75rem}
+  .heading{font-size:2.2rem;text-align:center}
+  .motto{letter-spacing:.1em;font-size:.7rem}
+  .cta-text{font-size:1.5rem}
+  input{width:100%;font-size:1.4rem;padding:1.1rem 1.4rem}
+  button{margin-top:1.5rem;margin-bottom:3rem;padding:.9rem 1.2rem}
+  .output{font-size:1.4rem;line-height:1.5}
+}
